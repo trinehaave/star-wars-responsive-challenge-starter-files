@@ -1,3 +1,6 @@
+/*Wrote this up while I was reading/doing lesson 7.2 (so it is close to identical,
+I've just added more column widths. I leave all of them + comments in at this point. */
+
 * {
 	box-sizing: border-box;
 }
@@ -19,7 +22,7 @@ That means that rows will vertically contain all their content*/
 
 .row::after {
 	clear: both;
-} /*clearfix, and it ensures that any content that comes after the row will act as though 
+} /*clearfix - it ensures that any content that comes after the row will act as though 
 the preceding row was in the normal flow, instead of butting up against the top of the row container*/
 
 

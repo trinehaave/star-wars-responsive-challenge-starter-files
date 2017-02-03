@@ -1,15 +1,12 @@
 * {
-	/*border: 1px solid red;*/
 	font-family: helvetica, arial, sans-serif;
 }
 
 header {
 	background-color: #F4AB00;
 	margin-bottom: 30px;
-	height: 100px;
+	height: 120px ;
 	width: 100%
-	position: absolute;
-
 }
 
 
@@ -20,9 +17,23 @@ img {
 .box {
 	border: 1px solid #c4c9d1;
 	margin-bottom: 30px;
+	padding-bottom: 10px;
 }
 
 
 h2, p {
 	padding-left: 20px;
+}
+
+
+@media only screen and (max-width: 480px) {
+h1 {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+h1 {
+		font-size: 24px;
+	}
 }
