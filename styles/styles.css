@@ -1,0 +1,28 @@
+* {
+	/*border: 1px solid red;*/
+	font-family: helvetica, arial, sans-serif;
+}
+
+header {
+	background-color: #F4AB00;
+	margin-bottom: 30px;
+	height: 100px;
+	width: 100%
+	position: absolute;
+
+}
+
+
+img {
+	width: 100%
+}
+
+.box {
+	border: 1px solid #c4c9d1;
+	margin-bottom: 30px;
+}
+
+
+h2, p {
+	padding-left: 20px;
+}
